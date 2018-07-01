@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4CB9F1120E765B20009C540 /* RestrauntListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB9F1020E765B20009C540 /* RestrauntListViewController.swift */; };
+		A4CB9F1420E7665F0009C540 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB9F1320E7665F0009C540 /* CircularTransition.swift */; };
+		A4CB9F1720E7CA680009C540 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB9F1620E7CA680009C540 /* DataManager.swift */; };
+		A4CB9F1A20E7CBE30009C540 /* QPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB9F1920E7CBE30009C540 /* QPlace.swift */; };
+		A4CB9F1C20E7CC070009C540 /* QPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB9F1B20E7CC070009C540 /* QPhoto.swift */; };
+		A4CB9F2020E7EB470009C540 /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB9F1F20E7EB470009C540 /* PlacesCell.swift */; };
 		A4E6363220E626600079A123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E6363120E626600079A123 /* AppDelegate.swift */; };
-		A4E6363420E626600079A123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E6363320E626600079A123 /* ViewController.swift */; };
 		A4E6363720E626600079A123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E6363520E626600079A123 /* Main.storyboard */; };
 		A4E6363920E626620079A123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E6363820E626620079A123 /* Assets.xcassets */; };
 		A4E6363C20E626620079A123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E6363A20E626620079A123 /* LaunchScreen.storyboard */; };
+		A4E6364520E6291D0079A123 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E6364420E6291D0079A123 /* LeftMenuViewController.swift */; };
+		A4E6364720E629340079A123 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E6364620E629340079A123 /* HomeViewController.swift */; };
+		A4E6364920E629470079A123 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E6364820E629470079A123 /* MainViewController.swift */; };
+		B0E505B1E59D4D7B40DCC9D7 /* Pods_Scootsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91C26DCB7F3C7369190A3D8 /* Pods_Scootsy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6473DB226E6A1F67D24C2A1B /* Pods-Scootsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scootsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scootsy/Pods-Scootsy.release.xcconfig"; sourceTree = "<group>"; };
+		7A906742933147273B2C4549 /* Pods-Scootsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scootsy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scootsy/Pods-Scootsy.debug.xcconfig"; sourceTree = "<group>"; };
+		A4CB9F1020E765B20009C540 /* RestrauntListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrauntListViewController.swift; sourceTree = "<group>"; };
+		A4CB9F1320E7665F0009C540 /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		A4CB9F1620E7CA680009C540 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A4CB9F1920E7CBE30009C540 /* QPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPlace.swift; sourceTree = "<group>"; };
+		A4CB9F1B20E7CC070009C540 /* QPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPhoto.swift; sourceTree = "<group>"; };
+		A4CB9F1F20E7EB470009C540 /* PlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
 		A4E6362E20E626600079A123 /* Scootsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scootsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E6363120E626600079A123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4E6363320E626600079A123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4E6363620E626600079A123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4E6363820E626620079A123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4E6363B20E626620079A123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4E6363D20E626620079A123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E6364420E6291D0079A123 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		A4E6364620E629340079A123 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4E6364820E629470079A123 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E91C26DCB7F3C7369190A3D8 /* Pods_Scootsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scootsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E505B1E59D4D7B40DCC9D7 /* Pods_Scootsy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67589E87F75B057F6BA09877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E91C26DCB7F3C7369190A3D8 /* Pods_Scootsy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4CB9F1220E7663D0009C540 /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB9F1320E7665F0009C540 /* CircularTransition.swift */,
+			);
+			path = CustomControl;
+			sourceTree = "<group>";
+		};
+		A4CB9F1520E7CA370009C540 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB9F1620E7CA680009C540 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A4CB9F1820E7CBCC0009C540 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB9F1920E7CBE30009C540 /* QPlace.swift */,
+				A4CB9F1B20E7CC070009C540 /* QPhoto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4CB9F1D20E7D3130009C540 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB9F1E20E7D31E0009C540 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4CB9F1E20E7D31E0009C540 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB9F1F20E7EB470009C540 /* PlacesCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A4E6362520E626600079A123 = {
 			isa = PBXGroup;
 			children = (
 				A4E6363020E626600079A123 /* Scootsy */,
 				A4E6362F20E626600079A123 /* Products */,
+				AFA4F1166851A1410A44CAE1 /* Pods */,
+				67589E87F75B057F6BA09877 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +126,38 @@
 		A4E6363020E626600079A123 /* Scootsy */ = {
 			isa = PBXGroup;
 			children = (
+				A4CB9F1D20E7D3130009C540 /* Views */,
+				A4CB9F1820E7CBCC0009C540 /* Models */,
+				A4CB9F1520E7CA370009C540 /* Managers */,
+				A4CB9F1220E7663D0009C540 /* CustomControl */,
+				A4E6364320E628FA0079A123 /* Controllers */,
 				A4E6363120E626600079A123 /* AppDelegate.swift */,
-				A4E6363320E626600079A123 /* ViewController.swift */,
 				A4E6363520E626600079A123 /* Main.storyboard */,
 				A4E6363820E626620079A123 /* Assets.xcassets */,
 				A4E6363A20E626620079A123 /* LaunchScreen.storyboard */,
 				A4E6363D20E626620079A123 /* Info.plist */,
 			);
 			path = Scootsy;
+			sourceTree = "<group>";
+		};
+		A4E6364320E628FA0079A123 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4E6364420E6291D0079A123 /* LeftMenuViewController.swift */,
+				A4E6364620E629340079A123 /* HomeViewController.swift */,
+				A4E6364820E629470079A123 /* MainViewController.swift */,
+				A4CB9F1020E765B20009C540 /* RestrauntListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AFA4F1166851A1410A44CAE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A906742933147273B2C4549 /* Pods-Scootsy.debug.xcconfig */,
+				6473DB226E6A1F67D24C2A1B /* Pods-Scootsy.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4E6364020E626620079A123 /* Build configuration list for PBXNativeTarget "Scootsy" */;
 			buildPhases = (
+				B2615EFE43800A71AD584CDE /* [CP] Check Pods Manifest.lock */,
 				A4E6362A20E626600079A123 /* Sources */,
 				A4E6362B20E626600079A123 /* Frameworks */,
 				A4E6362C20E626600079A123 /* Resources */,
+				CFA6BF3872AF955678B3B653 /* [CP] Embed Pods Frameworks */,
+				C024FDAAFF7C9F51728BC19E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +229,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B2615EFE43800A71AD584CDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scootsy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C024FDAAFF7C9F51728BC19E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Scootsy/Pods-Scootsy-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scootsy/Pods-Scootsy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA6BF3872AF955678B3B653 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Scootsy/Pods-Scootsy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scootsy/Pods-Scootsy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4E6362A20E626600079A123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E6363420E626600079A123 /* ViewController.swift in Sources */,
 				A4E6363220E626600079A123 /* AppDelegate.swift in Sources */,
+				A4CB9F1420E7665F0009C540 /* CircularTransition.swift in Sources */,
+				A4E6364520E6291D0079A123 /* LeftMenuViewController.swift in Sources */,
+				A4CB9F1720E7CA680009C540 /* DataManager.swift in Sources */,
+				A4E6364720E629340079A123 /* HomeViewController.swift in Sources */,
+				A4CB9F1A20E7CBE30009C540 /* QPlace.swift in Sources */,
+				A4CB9F1120E765B20009C540 /* RestrauntListViewController.swift in Sources */,
+				A4CB9F2020E7EB470009C540 /* PlacesCell.swift in Sources */,
+				A4E6364920E629470079A123 /* MainViewController.swift in Sources */,
+				A4CB9F1C20E7CC070009C540 /* QPhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,17 +448,17 @@
 		};
 		A4E6364120E626620079A123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A906742933147273B2C4549 /* Pods-Scootsy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2F2482B97Q;
 				INFOPLIST_FILE = Scootsy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashvaray.Scootsy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,17 +466,17 @@
 		};
 		A4E6364220E626620079A123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6473DB226E6A1F67D24C2A1B /* Pods-Scootsy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2F2482B97Q;
 				INFOPLIST_FILE = Scootsy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashvaray.Scootsy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
